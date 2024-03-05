@@ -1,0 +1,1469 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+}
+
+.d-flex-basic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-c {
+  justify-content: center;
+}
+
+.d-flex-se {
+  justify-content: space-evenly;
+}
+
+.d-flex-sb {
+  justify-content: space-between;
+}
+
+.d-flex-sa {
+  justify-content: space-around;
+}
+
+.d-flex-ac {
+  align-items: center;
+}
+
+/* ------------------------HEADING-------------------------- */
+
+/* Heading 1 */
+.H-1 {
+  font-size: 2.5rem;
+}
+
+/* Heading 2 */
+.H-2 {
+  font-size: 2rem;
+}
+
+/* Heading 3 */
+.H-3 {
+  font-size: 1.8rem;
+}
+
+/* Heading 4 */
+.H-4 {
+  font-size: 1.6rem;
+}
+
+/* Heading 5 */
+.H-5 {
+  font-size: 1.4rem;
+}
+
+/* Heading 6 */
+.H-6 {
+  font-size: 1.2rem;
+}
+
+/* ----------------------------------------------------------- */
+
+/* --------------------------PADDING-------------------------- */
+
+/* Padding in even numbers up to 50 */
+/* Padding in even numbers up to 50 using rem */
+.p-2 {
+  padding: 0.125rem; /* 2px in rem */
+}
+
+.p-4 {
+  padding: 0.25rem; /* 4px in rem */
+}
+
+.p-6 {
+  padding: 0.375rem; /* 6px in rem */
+}
+
+.p-8 {
+  padding: 0.5rem; /* 8px in rem */
+}
+
+.p-10 {
+  padding: 0.625rem; /* 10px in rem */
+}
+
+.p-12 {
+  padding: 0.75rem; /* 12px in rem */
+}
+
+.p-14 {
+  padding: 0.875rem; /* 14px in rem */
+}
+
+.p-16 {
+  padding: 1rem; /* 16px in rem */
+}
+
+.p-18 {
+  padding: 1.125rem; /* 18px in rem */
+}
+
+.p-20 {
+  padding: 1.25rem; /* 20px in rem */
+}
+
+.p-22 {
+  padding: 1.375rem; /* 22px in rem */
+}
+
+.p-24 {
+  padding: 1.5rem; /* 24px in rem */
+}
+
+.p-26 {
+  padding: 1.625rem; /* 26px in rem */
+}
+
+.p-28 {
+  padding: 1.75rem; /* 28px in rem */
+}
+
+.p-30 {
+  padding: 1.875rem; /* 30px in rem */
+}
+
+.p-32 {
+  padding: 2rem; /* 32px in rem */
+}
+
+.p-34 {
+  padding: 2.125rem; /* 34px in rem */
+}
+
+.p-36 {
+  padding: 2.25rem; /* 36px in rem */
+}
+
+.p-38 {
+  padding: 2.375rem; /* 38px in rem */
+}
+
+.p-40 {
+  padding: 2.5rem; /* 40px in rem */
+}
+
+.p-42 {
+  padding: 2.625rem; /* 42px in rem */
+}
+
+.p-44 {
+  padding: 2.75rem; /* 44px in rem */
+}
+
+.p-46 {
+  padding: 2.875rem; /* 46px in rem */
+}
+
+.p-48 {
+  padding: 3rem; /* 48px in rem */
+}
+
+.p-50 {
+  padding: 3.125rem; /* 50px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* --------------------PADDING-TOP---------------------------- */
+
+/* Padding-top in rem up to 50 */
+.pt-2 {
+  padding-top: 0.125rem; /* 2px in rem */
+}
+
+.pt-4 {
+  padding-top: 0.25rem; /* 4px in rem */
+}
+
+.pt-6 {
+  padding-top: 0.375rem; /* 6px in rem */
+}
+
+.pt-8 {
+  padding-top: 0.5rem; /* 8px in rem */
+}
+
+.pt-10 {
+  padding-top: 0.625rem; /* 10px in rem */
+}
+
+.pt-12 {
+  padding-top: 0.75rem; /* 12px in rem */
+}
+
+.pt-14 {
+  padding-top: 0.875rem; /* 14px in rem */
+}
+
+.pt-16 {
+  padding-top: 1rem; /* 16px in rem */
+}
+
+.pt-18 {
+  padding-top: 1.125rem; /* 18px in rem */
+}
+
+.pt-20 {
+  padding-top: 1.25rem; /* 20px in rem */
+}
+
+.pt-22 {
+  padding-top: 1.375rem; /* 22px in rem */
+}
+
+.pt-24 {
+  padding-top: 1.5rem; /* 24px in rem */
+}
+
+.pt-26 {
+  padding-top: 1.625rem; /* 26px in rem */
+}
+
+.pt-28 {
+  padding-top: 1.75rem; /* 28px in rem */
+}
+
+.pt-30 {
+  padding-top: 1.875rem; /* 30px in rem */
+}
+
+.pt-32 {
+  padding-top: 2rem; /* 32px in rem */
+}
+
+.pt-34 {
+  padding-top: 2.125rem; /* 34px in rem */
+}
+
+.pt-36 {
+  padding-top: 2.25rem; /* 36px in rem */
+}
+
+.pt-38 {
+  padding-top: 2.375rem; /* 38px in rem */
+}
+
+.pt-40 {
+  padding-top: 2.5rem; /* 40px in rem */
+}
+
+.pt-42 {
+  padding-top: 2.625rem; /* 42px in rem */
+}
+
+.pt-44 {
+  padding-top: 2.75rem; /* 44px in rem */
+}
+
+.pt-46 {
+  padding-top: 2.875rem; /* 46px in rem */
+}
+
+.pt-48 {
+  padding-top: 3rem; /* 48px in rem */
+}
+
+.pt-50 {
+  padding-top: 3.125rem; /* 50px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* ----------------PADDING-LEFT-------------------------------- */
+
+/* Padding-left in rem up to 50 */
+.pl-2 {
+  padding-left: 0.125rem; /* 2px in rem */
+}
+
+.pl-4 {
+  padding-left: 0.25rem; /* 4px in rem */
+}
+
+.pl-6 {
+  padding-left: 0.375rem; /* 6px in rem */
+}
+
+.pl-8 {
+  padding-left: 0.5rem; /* 8px in rem */
+}
+
+.pl-10 {
+  padding-left: 0.625rem; /* 10px in rem */
+}
+
+.pl-12 {
+  padding-left: 0.75rem; /* 12px in rem */
+}
+
+.pl-14 {
+  padding-left: 0.875rem; /* 14px in rem */
+}
+
+.pl-16 {
+  padding-left: 1rem; /* 16px in rem */
+}
+
+.pl-18 {
+  padding-left: 1.125rem; /* 18px in rem */
+}
+
+.pl-20 {
+  padding-left: 1.25rem; /* 20px in rem */
+}
+
+.pl-22 {
+  padding-left: 1.375rem; /* 22px in rem */
+}
+
+.pl-24 {
+  padding-left: 1.5rem; /* 24px in rem */
+}
+
+.pl-26 {
+  padding-left: 1.625rem; /* 26px in rem */
+}
+
+.pl-28 {
+  padding-left: 1.75rem; /* 28px in rem */
+}
+
+.pl-30 {
+  padding-left: 1.875rem; /* 30px in rem */
+}
+
+.pl-32 {
+  padding-left: 2rem; /* 32px in rem */
+}
+
+.pl-34 {
+  padding-left: 2.125rem; /* 34px in rem */
+}
+
+.pl-36 {
+  padding-left: 2.25rem; /* 36px in rem */
+}
+
+.pl-38 {
+  padding-left: 2.375rem; /* 38px in rem */
+}
+
+.pl-40 {
+  padding-left: 2.5rem; /* 40px in rem */
+}
+
+.pl-42 {
+  padding-left: 2.625rem; /* 42px in rem */
+}
+
+.pl-44 {
+  padding-left: 2.75rem; /* 44px in rem */
+}
+
+.pl-46 {
+  padding-left: 2.875rem; /* 46px in rem */
+}
+
+.pl-48 {
+  padding-left: 3rem; /* 48px in rem */
+}
+
+.pl-50 {
+  padding-left: 3.125rem; /* 50px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* -------------------PADDING-RIGHT---------------------------- */
+
+/* Padding-right in rem up to 50 */
+.pr-2 {
+  padding-right: 0.125rem; /* 2px in rem */
+}
+
+.pr-4 {
+  padding-right: 0.25rem; /* 4px in rem */
+}
+
+.pr-6 {
+  padding-right: 0.375rem; /* 6px in rem */
+}
+
+.pr-8 {
+  padding-right: 0.5rem; /* 8px in rem */
+}
+
+.pr-10 {
+  padding-right: 0.625rem; /* 10px in rem */
+}
+
+.pr-12 {
+  padding-right: 0.75rem; /* 12px in rem */
+}
+
+.pr-14 {
+  padding-right: 0.875rem; /* 14px in rem */
+}
+
+.pr-16 {
+  padding-right: 1rem; /* 16px in rem */
+}
+
+.pr-18 {
+  padding-right: 1.125rem; /* 18px in rem */
+}
+
+.pr-20 {
+  padding-right: 1.25rem; /* 20px in rem */
+}
+
+.pr-22 {
+  padding-right: 1.375rem; /* 22px in rem */
+}
+
+.pr-24 {
+  padding-right: 1.5rem; /* 24px in rem */
+}
+
+.pr-26 {
+  padding-right: 1.625rem; /* 26px in rem */
+}
+
+.pr-28 {
+  padding-right: 1.75rem; /* 28px in rem */
+}
+
+.pr-30 {
+  padding-right: 1.875rem; /* 30px in rem */
+}
+
+.pr-32 {
+  padding-right: 2rem; /* 32px in rem */
+}
+
+.pr-34 {
+  padding-right: 2.125rem; /* 34px in rem */
+}
+
+.pr-36 {
+  padding-right: 2.25rem; /* 36px in rem */
+}
+
+.pr-38 {
+  padding-right: 2.375rem; /* 38px in rem */
+}
+
+.pr-40 {
+  padding-right: 2.5rem; /* 40px in rem */
+}
+
+.pr-42 {
+  padding-right: 2.625rem; /* 42px in rem */
+}
+
+.pr-44 {
+  padding-right: 2.75rem; /* 44px in rem */
+}
+
+.pr-46 {
+  padding-right: 2.875rem; /* 46px in rem */
+}
+
+.pr-48 {
+  padding-right: 3rem; /* 48px in rem */
+}
+
+.pr-50 {
+  padding-right: 3.125rem; /* 50px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* -------------------PADDING-BOTTOM-------------------------- */
+
+/* Padding-bottom in rem up to 50 */
+.pb-2 {
+  padding-bottom: 0.125rem; /* 2px in rem */
+}
+
+.pb-4 {
+  padding-bottom: 0.25rem; /* 4px in rem */
+}
+
+.pb-6 {
+  padding-bottom: 0.375rem; /* 6px in rem */
+}
+
+.pb-8 {
+  padding-bottom: 0.5rem; /* 8px in rem */
+}
+
+.pb-10 {
+  padding-bottom: 0.625rem; /* 10px in rem */
+}
+
+.pb-12 {
+  padding-bottom: 0.75rem; /* 12px in rem */
+}
+
+.pb-14 {
+  padding-bottom: 0.875rem; /* 14px in rem */
+}
+
+.pb-16 {
+  padding-bottom: 1rem; /* 16px in rem */
+}
+
+.pb-18 {
+  padding-bottom: 1.125rem; /* 18px in rem */
+}
+
+.pb-20 {
+  padding-bottom: 1.25rem; /* 20px in rem */
+}
+
+.pb-22 {
+  padding-bottom: 1.375rem; /* 22px in rem */
+}
+
+.pb-24 {
+  padding-bottom: 1.5rem; /* 24px in rem */
+}
+
+.pb-26 {
+  padding-bottom: 1.625rem; /* 26px in rem */
+}
+
+.pb-28 {
+  padding-bottom: 1.75rem; /* 28px in rem */
+}
+
+.pb-30 {
+  padding-bottom: 1.875rem; /* 30px in rem */
+}
+
+.pb-32 {
+  padding-bottom: 2rem; /* 32px in rem */
+}
+
+.pb-34 {
+  padding-bottom: 2.125rem; /* 34px in rem */
+}
+
+.pb-36 {
+  padding-bottom: 2.25rem; /* 36px in rem */
+}
+
+.pb-38 {
+  padding-bottom: 2.375rem; /* 38px in rem */
+}
+
+.pb-40 {
+  padding-bottom: 2.5rem; /* 40px in rem */
+}
+
+.pb-42 {
+  padding-bottom: 2.625rem; /* 42px in rem */
+}
+
+.pb-44 {
+  padding-bottom: 2.75;
+}
+
+/* ----------------------------------------------------------- */
+
+/* ---------------------MARGIN-TOP---------------------------- */
+
+/* Margin-top in rem up to 200px */
+.mt-10 {
+  margin-top: 0.625rem; /* 10px in rem */
+}
+
+.mt-20 {
+  margin-top: 1.25rem; /* 20px in rem */
+}
+
+.mt-30 {
+  margin-top: 1.875rem; /* 30px in rem */
+}
+
+.mt-40 {
+  margin-top: 2.5rem; /* 40px in rem */
+}
+
+.mt-50 {
+  margin-top: 3.125rem; /* 50px in rem */
+}
+
+.mt-60 {
+  margin-top: 3.75rem; /* 60px in rem */
+}
+
+.mt-70 {
+  margin-top: 4.375rem; /* 70px in rem */
+}
+
+.mt-80 {
+  margin-top: 5rem; /* 80px in rem */
+}
+
+.mt-90 {
+  margin-top: 5.625rem; /* 90px in rem */
+}
+
+.mt-100 {
+  margin-top: 6.25rem; /* 100px in rem */
+}
+
+.mt-110 {
+  margin-top: 6.875rem; /* 110px in rem */
+}
+
+.mt-120 {
+  margin-top: 7.5rem; /* 120px in rem */
+}
+
+.mt-130 {
+  margin-top: 8.125rem; /* 130px in rem */
+}
+
+.mt-140 {
+  margin-top: 8.75rem; /* 140px in rem */
+}
+
+.mt-150 {
+  margin-top: 9.375rem; /* 150px in rem */
+}
+
+.mt-160 {
+  margin-top: 10rem; /* 160px in rem */
+}
+
+.mt-170 {
+  margin-top: 10.625rem; /* 170px in rem */
+}
+
+.mt-180 {
+  margin-top: 11.25rem; /* 180px in rem */
+}
+
+.mt-190 {
+  margin-top: 11.875rem; /* 190px in rem */
+}
+
+.mt-200 {
+  margin-top: 12.5rem; /* 200px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* -------------------MARGIN-RIGHT---------------------------- */
+
+/* Margin-right in rem up to 200px */
+.mr-10 {
+  margin-right: 0.625rem; /* 10px in rem */
+}
+
+.mr-20 {
+  margin-right: 1.25rem; /* 20px in rem */
+}
+
+.mr-30 {
+  margin-right: 1.875rem; /* 30px in rem */
+}
+
+.mr-40 {
+  margin-right: 2.5rem; /* 40px in rem */
+}
+
+.mr-50 {
+  margin-right: 3.125rem; /* 50px in rem */
+}
+
+.mr-60 {
+  margin-right: 3.75rem; /* 60px in rem */
+}
+
+.mr-70 {
+  margin-right: 4.375rem; /* 70px in rem */
+}
+
+.mr-80 {
+  margin-right: 5rem; /* 80px in rem */
+}
+
+.mr-90 {
+  margin-right: 5.625rem; /* 90px in rem */
+}
+
+.mr-100 {
+  margin-right: 6.25rem; /* 100px in rem */
+}
+
+.mr-110 {
+  margin-right: 6.875rem; /* 110px in rem */
+}
+
+.mr-120 {
+  margin-right: 7.5rem; /* 120px in rem */
+}
+
+.mr-130 {
+  margin-right: 8.125rem; /* 130px in rem */
+}
+
+.mr-140 {
+  margin-right: 8.75rem; /* 140px in rem */
+}
+
+.mr-150 {
+  margin-right: 9.375rem; /* 150px in rem */
+}
+
+.mr-160 {
+  margin-right: 10rem; /* 160px in rem */
+}
+
+.mr-170 {
+  margin-right: 10.625rem; /* 170px in rem */
+}
+
+.mr-180 {
+  margin-right: 11.25rem; /* 180px in rem */
+}
+
+.mr-190 {
+  margin-right: 11.875rem; /* 190px in rem */
+}
+
+.mr-200 {
+  margin-right: 12.5rem; /* 200px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* ------------------MARGIN-LEFT------------------------------- */
+
+/* Margin-left in rem up to 200px */
+.ml-10 {
+  margin-left: 0.625rem; /* 10px in rem */
+}
+
+.ml-20 {
+  margin-left: 1.25rem; /* 20px in rem */
+}
+
+.ml-30 {
+  margin-left: 1.875rem; /* 30px in rem */
+}
+
+.ml-40 {
+  margin-left: 2.5rem; /* 40px in rem */
+}
+
+.ml-50 {
+  margin-left: 3.125rem; /* 50px in rem */
+}
+
+.ml-60 {
+  margin-left: 3.75rem; /* 60px in rem */
+}
+
+.ml-70 {
+  margin-left: 4.375rem; /* 70px in rem */
+}
+
+.ml-80 {
+  margin-left: 5rem; /* 80px in rem */
+}
+
+.ml-90 {
+  margin-left: 5.625rem; /* 90px in rem */
+}
+
+.ml-100 {
+  margin-left: 6.25rem; /* 100px in rem */
+}
+
+.ml-110 {
+  margin-left: 6.875rem; /* 110px in rem */
+}
+
+.ml-120 {
+  margin-left: 7.5rem; /* 120px in rem */
+}
+
+.ml-130 {
+  margin-left: 8.125rem; /* 130px in rem */
+}
+
+.ml-140 {
+  margin-left: 8.75rem; /* 140px in rem */
+}
+
+.ml-150 {
+  margin-left: 9.375rem; /* 150px in rem */
+}
+
+.ml-160 {
+  margin-left: 10rem; /* 160px in rem */
+}
+
+.ml-170 {
+  margin-left: 10.625rem; /* 170px in rem */
+}
+
+.ml-180 {
+  margin-left: 11.25rem; /* 180px in rem */
+}
+
+.ml-190 {
+  margin-left: 11.875rem; /* 190px in rem */
+}
+
+.ml-200 {
+  margin-left: 12.5rem; /* 200px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* ---------------------MARGIN-BOTTOM------------------------- */
+
+/* Margin-bottom in rem up to 200px */
+.mb-10 {
+  margin-bottom: 0.625rem; /* 10px in rem */
+}
+
+.mb-20 {
+  margin-bottom: 1.25rem; /* 20px in rem */
+}
+
+.mb-30 {
+  margin-bottom: 1.875rem; /* 30px in rem */
+}
+
+.mb-40 {
+  margin-bottom: 2.5rem; /* 40px in rem */
+}
+
+.mb-50 {
+  margin-bottom: 3.125rem; /* 50px in rem */
+}
+
+.mb-60 {
+  margin-bottom: 3.75rem; /* 60px in rem */
+}
+
+.mb-70 {
+  margin-bottom: 4.375rem; /* 70px in rem */
+}
+
+.mb-80 {
+  margin-bottom: 5rem; /* 80px in rem */
+}
+
+.mb-90 {
+  margin-bottom: 5.625rem; /* 90px in rem */
+}
+
+.mb-100 {
+  margin-bottom: 6.25rem; /* 100px in rem */
+}
+
+.mb-110 {
+  margin-bottom: 6.875rem; /* 110px in rem */
+}
+
+.mb-120 {
+  margin-bottom: 7.5rem; /* 120px in rem */
+}
+
+.mb-130 {
+  margin-bottom: 8.125rem; /* 130px in rem */
+}
+
+.mb-140 {
+  margin-bottom: 8.75rem; /* 140px in rem */
+}
+
+.mb-150 {
+  margin-bottom: 9.375rem; /* 150px in rem */
+}
+
+.mb-160 {
+  margin-bottom: 10rem; /* 160px in rem */
+}
+
+.mb-170 {
+  margin-bottom: 10.625rem; /* 170px in rem */
+}
+
+.mb-180 {
+  margin-bottom: 11.25rem; /* 180px in rem */
+}
+
+.mb-190 {
+  margin-bottom: 11.875rem; /* 190px in rem */
+}
+
+.mb-200 {
+  margin-bottom: 12.5rem; /* 200px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+/* ----------------------WIDTH-------------------------------- */
+
+/* Width in rem from 30px to 400px */
+.w-30 {
+  width: 1.875rem; /* 30px in rem */
+}
+
+.w-40 {
+  width: 2.5rem; /* 40px in rem */
+}
+
+.w-50 {
+  width: 3.125rem; /* 50px in rem */
+}
+
+.w-60 {
+  width: 3.75rem; /* 60px in rem */
+}
+
+.w-70 {
+  width: 4.375rem; /* 70px in rem */
+}
+
+.w-80 {
+  width: 5rem; /* 80px in rem */
+}
+
+.w-90 {
+  width: 5.625rem; /* 90px in rem */
+}
+
+.w-100 {
+  width: 6.25rem; /* 100px in rem */
+}
+
+.w-110 {
+  width: 6.875rem; /* 110px in rem */
+}
+
+.w-120 {
+  width: 7.5rem; /* 120px in rem */
+}
+
+.w-130 {
+  width: 8.125rem; /* 130px in rem */
+}
+
+.w-140 {
+  width: 8.75rem; /* 140px in rem */
+}
+
+.w-150 {
+  width: 9.375rem; /* 150px in rem */
+}
+
+.w-160 {
+  width: 10rem; /* 160px in rem */
+}
+
+.w-170 {
+  width: 10.625rem; /* 170px in rem */
+}
+
+.w-180 {
+  width: 11.25rem; /* 180px in rem */
+}
+
+.w-190 {
+  width: 11.875rem; /* 190px in rem */
+}
+
+.w-200 {
+  width: 12.5rem; /* 200px in rem */
+}
+
+.w-210 {
+  width: 13.125rem; /* 210px in rem */
+}
+
+.w-220 {
+  width: 13.75rem; /* 220px in rem */
+}
+
+.w-230 {
+  width: 14.375rem; /* 230px in rem */
+}
+
+.w-240 {
+  width: 15rem; /* 240px in rem */
+}
+
+.w-250 {
+  width: 15.625rem; /* 250px in rem */
+}
+
+.w-260 {
+  width: 16.25rem; /* 260px in rem */
+}
+
+.w-270 {
+  width: 16.875rem; /* 270px in rem */
+}
+
+.w-280 {
+  width: 17.5rem; /* 280px in rem */
+}
+
+.w-290 {
+  width: 18.125rem; /* 290px in rem */
+}
+
+.w-300 {
+  width: 18.75rem; /* 300px in rem */
+}
+
+.w-310 {
+  width: 19.375rem; /* 310px in rem */
+}
+
+.w-320 {
+  width: 20rem; /* 320px in rem */
+}
+
+.w-330 {
+  width: 20.625rem; /* 330px in rem */
+}
+
+.w-340 {
+  width: 21.25rem; /* 340px in rem */
+}
+
+.w-350 {
+  width: 21.875rem; /* 350px in rem */
+}
+
+.w-360 {
+  width: 22.5rem; /* 360px in rem */
+}
+
+.w-370 {
+  width: 23.125rem; /* 370px in rem */
+}
+
+.w-380 {
+  width: 23.75rem; /* 380px in rem */
+}
+
+.w-390 {
+  width: 24.375rem; /* 390px in rem */
+}
+
+.w-400 {
+  width: 25rem; /* 400px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+/* ----------------------WIDTH IN %--------------------------- */
+
+.wp-full{
+    width: 100%;
+}
+
+.wp-50{
+    width: 50%;
+}
+
+.wp-10{
+    width: 51%;
+}
+
+.wp-20{
+    width: 20%;
+}
+
+.wp-30{
+    width: 30%;
+}
+
+.wp-40{
+    width: 40%;
+}
+
+.wp-60{
+    width: 60%;
+}
+
+.wp-70{
+    width: 70%;
+}
+
+.wp-80{
+    width: 80%;
+}
+
+.wp-90{
+    width: 90%;
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+/* -------------------------HEIGHT----------------------------- */
+
+/* Height in rem from 10px to 500px based on 16px = 1rem */
+.h-10 {
+  height: 0.625rem; /* 10px in rem */
+}
+
+.h-20 {
+  height: 1.25rem; /* 20px in rem */
+}
+
+.h-30 {
+  height: 1.875rem; /* 30px in rem */
+}
+
+.h-40 {
+  height: 2.5rem; /* 40px in rem */
+}
+
+.h-50 {
+  height: 3.125rem; /* 50px in rem */
+}
+
+.h-60 {
+  height: 3.75rem; /* 60px in rem */
+}
+
+.h-70 {
+  height: 4.375rem; /* 70px in rem */
+}
+
+.h-80 {
+  height: 5rem; /* 80px in rem */
+}
+
+.h-90 {
+  height: 5.625rem; /* 90px in rem */
+}
+
+.h-100 {
+  height: 6.25rem; /* 100px in rem */
+}
+
+.h-110 {
+  height: 6.875rem; /* 110px in rem */
+}
+
+.h-120 {
+  height: 7.5rem; /* 120px in rem */
+}
+
+.h-130 {
+  height: 8.125rem; /* 130px in rem */
+}
+
+.h-140 {
+  height: 8.75rem; /* 140px in rem */
+}
+
+.h-150 {
+  height: 9.375rem; /* 150px in rem */
+}
+
+.h-160 {
+  height: 10rem; /* 160px in rem */
+}
+
+.h-170 {
+  height: 10.625rem; /* 170px in rem */
+}
+
+.h-180 {
+  height: 11.25rem; /* 180px in rem */
+}
+
+.h-190 {
+  height: 11.875rem; /* 190px in rem */
+}
+
+.h-200 {
+  height: 12.5rem; /* 200px in rem */
+}
+
+.h-210 {
+  height: 13.125rem; /* 210px in rem */
+}
+
+.h-220 {
+  height: 13.75rem; /* 220px in rem */
+}
+
+.h-230 {
+  height: 14.375rem; /* 230px in rem */
+}
+
+.h-240 {
+  height: 15rem; /* 240px in rem */
+}
+
+.h-250 {
+  height: 15.625rem; /* 250px in rem */
+}
+
+.h-260 {
+  height: 16.25rem; /* 260px in rem */
+}
+
+.h-270 {
+  height: 16.875rem; /* 270px in rem */
+}
+
+.h-280 {
+  height: 17.5rem; /* 280px in rem */
+}
+
+.h-290 {
+  height: 18.125rem; /* 290px in rem */
+}
+
+.h-300 {
+  height: 18.75rem; /* 300px in rem */
+}
+
+.h-310 {
+  height: 19.375rem; /* 310px in rem */
+}
+
+.h-320 {
+  height: 20rem; /* 320px in rem */
+}
+
+.h-330 {
+  height: 20.625rem; /* 330px in rem */
+}
+
+.h-340 {
+  height: 21.25rem; /* 340px in rem */
+}
+
+.h-350 {
+  height: 21.875rem; /* 350px in rem */
+}
+
+.h-360 {
+  height: 22.5rem; /* 360px in rem */
+}
+
+.h-370 {
+  height: 23.125rem; /* 370px in rem */
+}
+
+.h-380 {
+  height: 23.75rem; /* 380px in rem */
+}
+
+.h-390 {
+  height: 24.375rem; /* 390px in rem */
+}
+
+.h-400 {
+  height: 25rem; /* 400px in rem */
+}
+
+.h-410 {
+  height: 25.625rem; /* 410px in rem */
+}
+
+.h-420 {
+  height: 26.25rem; /* 420px in rem */
+}
+
+.h-430 {
+  height: 26.875rem; /* 430px in rem */
+}
+
+.h-440 {
+  height: 27.5rem; /* 440px in rem */
+}
+
+.h-450 {
+  height: 28.125rem; /* 450px in rem */
+}
+
+.h-460 {
+  height: 28.75rem; /* 460px in rem */
+}
+
+.h-470 {
+  height: 29.375rem; /* 470px in rem */
+}
+
+.h-480 {
+  height: 30rem; /* 480px in rem */
+}
+
+.h-490 {
+  height: 30.625rem; /* 490px in rem */
+}
+
+.h-500 {
+  height: 31.25rem; /* 500px in rem */
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quries */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .H-1 {
+    font-size: 2rem;
+  }
+
+  .H-2 {
+    font-size: 1.8rem;
+  }
+
+  .H-3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .H-1 {
+    font-size: 2.5rem;
+  }
+
+  .H-2 {
+    font-size: 2rem;
+  }
+
+  .H-3 {
+    font-size: 1.8rem;
+  }
+}
